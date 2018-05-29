@@ -1,0 +1,29 @@
+body {
+  background-color: #f5f5f5; }
+
+.App {
+  margin-bottom: 4rem; }
+  .App .title {
+    text-align: center; }
+    .App .title h1 {
+      font-weight: 400;
+      font-size: 3rem;
+      margin-top: 2rem;
+      font-family: "Lobster", cursive;
+      color: #3d3d3d; }
+    .App .title h2 {
+      font-family: "Roboto", sans-serif;
+      font-weight: 400;
+      font-size: 2rem;
+      margin-top: 1rem;
+      color: #3d3d3d; }
+  .App .main {
+    max-width: 65rem;
+    margin: 0 auto;
+    margin-top: 2rem; }
+    .App .main .todo-list {
+      display: flex;
+      flex-wrap: wrap;
+      list-style: none;
+      margin: 0;
+      padding: 0; }
